@@ -5,9 +5,6 @@ describe("wrap", () => {
   it("Returns empty string if empty string was provided", () => {
     expect(wrap("", 10)).to.equal("");
   });
-});
-
-describe("wrap", () => {
   it("Returns empty string if empty string was provided", () => {
     expect(
       wrap(
